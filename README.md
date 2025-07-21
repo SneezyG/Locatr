@@ -1,4 +1,4 @@
-# 🗺️ Locatr: Coordinate-to-Region Mapping API
+# 🗺️ Locatr: Coordinate-to-Region Mapping system
 
 A minimal FastAPI backend that lets users define named geographic regions (as polygons) and determine whether a coordinate falls within any of those regions.
 
