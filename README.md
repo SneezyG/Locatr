@@ -1,6 +1,8 @@
 # 🗺️ Locatr: Coordinate-to-Region Mapping system
 
-A minimal FastAPI backend that lets users define named geographic regions (as polygons) and determine whether a coordinate falls within any of those regions.
+A mapping system that lets users define named geographic regions (as polygons) and can then determine which regions a coordinate falls.
+
+## [See Locatr Code Repo](https://github.com/SneezyG/Locatr)
 
 ---
 
@@ -10,6 +12,16 @@ A minimal FastAPI backend that lets users define named geographic regions (as po
 - **Point Lookup**: Given a coordinate, the API returns all regions that contain that point.
 - **Geospatial Accuracy**: Utilizes robust spatial functions for precise point-in-polygon querying.
 - **Fast Spatial Queries**: Backed by PostGIS with spatial indexing for high performance.
+
+---
+
+## 📍 Use Cases
+
+- **Land Management**: Map farmland or property boundaries and locate them via GPS.
+- **Geofencing**: Trigger actions based on whether a device enters a defined region.
+- **Surveying**: Tag, group, or catalog spatial features by custom regions.
+- **Logistics**: Route optimization or delivery validation within service zones.
+- **IoT & Tracking**: Assign assets or sensors to predefined geographic areas.
 
 ---
 
