@@ -23,3 +23,8 @@ def create_region(region: schemas.RegionCreate, db: Session = Depends(get_db)):
 def check_point(lat: float, lon: float, db: Session = Depends(get_db)):
     regions = crud.find_region_by_point(db, lat, lon)
     return [{"id": str(r.id), "name": r.name} for r in regions]
+
+
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000)
