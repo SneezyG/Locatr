@@ -1,4 +1,4 @@
-# 🗺️ Locatr: Coordinate-to-Region Mapping system
+# 🗺️ Locatr: A Coordinate-to-Region Mapping system
 
 A mapping system that lets users define named geographic regions (as polygons) and can then determine which regions a coordinate falls.
 
